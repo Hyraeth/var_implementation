@@ -1,10 +1,15 @@
 Unit test in each files.
 
 VAE : Encoder and Decoder definition
+
 Multiscale_VAE_Quant : Multiscale features quantizer
+
 Multiscale_VQVAE : VAE + Multiscale_VAE_Quant + Training
+
 VAR Block : Transformer decoder blocks with class conditioning and Adaptative layer normalization
+
 VAR : Full VAR decoder : Main contain inference
+
 Train VAR : Training script
 
 Launch Multiscale_VQVAE.py to train vqvae
